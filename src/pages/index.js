@@ -54,9 +54,9 @@ class Index extends Component {
                 <header className="major">
                   <h2>Quem é a Aline?</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>Sou mãe, pedagoga, professora. Acredito que as mães devem e podem desenvolver
+                  os seus filhos em casa e o meu trabalho é te mostrar como.
+                </p>
                 <ul className="actions">
                   <li><Link to="/sobre" className="button">Saiba mais</Link></li>
                 </ul>
@@ -98,7 +98,7 @@ class Index extends Component {
           <section id="s_social" className="main special">
             <header className="major">
               <h2>Nas redes sociais</h2>
-              <p>Divulgo todo dia o que estou fazendo na minha casa e com as mães que ajudo nas minhas redes sociais. Vá lá, me siga, curta e acompanhe.
+              <p>Divulgo diariamente o que estou fazendo na minha casa e com as mães que ajudo nas minhas redes sociais. Vá lá, me siga, curta e acompanhe.
                 É um grande incentivo para continuar fazendo o meu trabalho.</p>
             </header>
             <ul className="statistics">
