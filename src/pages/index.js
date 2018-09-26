@@ -13,6 +13,7 @@ import Nav from '../components/Nav'
 import cover_sobre from '../assets/images/rosto-aline-frente.jpg'
 import depo1 from '../assets/images/depo-fernanda-rosto.png';
 import depo2 from '../assets/images/depo-luciana-rosto.png';
+import picEbook from '../assets/images/ebook.jpg';
 
 
 class Index extends Component {
@@ -95,6 +96,22 @@ class Index extends Component {
             </footer>
           </section>
 
+          <section id="s_ebook" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Baixe o meu E-book</h2>
+                </header>
+                <p>Veja as 23 dicas que eu tenho para você melhorar o comportamento dos seus filhos!
+                </p>
+                <ul className="actions">
+                  <li><Link to="/ebook" className="button">Saiba mais</Link></li>
+                </ul>
+              </div>
+              <span className="image"><img src={picEbook} alt="" /></span>
+            </div>
+          </section>
+
           <section id="s_social" className="main special">
             <header className="major">
               <h2>Nas redes sociais</h2>
@@ -118,7 +135,7 @@ class Index extends Component {
             <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Saiba mais</Link></li>
+                <li><Link to="/redes-sociais" className="button">Saiba mais</Link></li>
                 {/* <li>
                   <Ebook>
                     <Img fluid={this.props.data.imgEbook.childImageSharp.fluid} />
@@ -150,21 +167,6 @@ class Index extends Component {
               </ul>
             </footer>
           </section>
-
-          <section id="s_cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
-
         </div>
 
       </div>

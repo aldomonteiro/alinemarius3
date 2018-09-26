@@ -16,6 +16,11 @@ const Nav = (props) => (
                 </Scroll>
             </li>
             <li>
+                <Scroll type="id" element="s_ebook">
+                    <a href="#">Ebook</a>
+                </Scroll>
+            </li>
+            <li>
                 <Scroll type="id" element="s_social">
                     <a href="#">Nas redes..</a>
                 </Scroll>
@@ -23,11 +28,6 @@ const Nav = (props) => (
             <li>
                 <Scroll type="id" element="s_depoimentos">
                     <a href="#">Depoimentos</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="s_cta">
-                    <a href="#">Newsletter</a>
                 </Scroll>
             </li>
         </Scrollspy>
