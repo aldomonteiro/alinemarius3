@@ -20,6 +20,8 @@ class Sobre extends React.Component {
             <h2>Quem é Aline?</h2>
             <p>Olá, eu sou a Aline Marius, mãe, professora, pedagoga.</p>
 
+            <p> Acredito que desenvolver seus filhos em casa é tão importante quanto mandá-los para a escola.</p>
+
             <p>Graças a mais de quinze anos em experiência na educação (trabalhando em escolas
               públicas, privadas, com alunos em particular e atualmente como mãe de gêmeas),
               descobri que o ponto fundamental para o desenvolvimento intelectual de cada indivíduo
@@ -37,8 +39,11 @@ class Sobre extends React.Component {
               pelos que os educam dentro de casa, pode ser cada dia mais feliz e realizado, mesmo
               com todas as adversidades da vida (que não são poucas!).</p>
 
-            <h2>Tempus veroeros</h2>
-            <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+            <h2>Quer conhecer o meu trabalho de perto?</h2>
+            <p>Fique atenta aos meus <Link to="eventos">eventos</Link> e me acompanhe no
+            &nbsp;<a href="https://www.instagram.com/alinemarius01/">Instagram</a>,
+            &nbsp;<a href="https://www.facebook.com/alinemarius/">Facebook</a> e
+            &nbsp;<a href="https://www.youtube.com/c/AlineMarius">Youtube</a>.</p>
           </section>
         </div>
 

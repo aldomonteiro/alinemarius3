@@ -120,19 +120,25 @@ class Index extends Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-youtube"></span>
-                <strong>4882</strong> visualizações
+                <a href="https://www.youtube.com/c/AlineMarius">
+                  <span className="icon fa-youtube"></span>
+                  <strong>4882</strong> visualizações
+                </a>
               </li>
               <li className="style2">
-                <span className="icon fa-instagram"></span>
-                <strong>691</strong> seguidores
+                <a href="https://www.instagram.com/alinemarius01/">
+                  <span className="icon fa-instagram"></span>
+                  <strong>691</strong> seguidores
+                </a>
               </li>
               <li className="style4">
-                <span className="icon fa-facebook"></span>
-                <strong>1681</strong> curtidas
+                <a href="https://www.facebook.com/alinemarius/">
+                  <span className="icon fa-facebook"></span>
+                  <strong>1681</strong> curtidas
+                </a>
               </li>
             </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+            {/* <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p> */}
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/redes-sociais" className="button">Saiba mais</Link></li>
