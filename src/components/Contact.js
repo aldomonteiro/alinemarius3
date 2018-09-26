@@ -6,6 +6,7 @@ const Contact = (props) => (
 
             {/* <form name="contact" action="/success" method="post" netlify-honeypot="bot-field" netlify> */}
             <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <input type="hidden" name="bot-field" />
                 <div className="field half first">
                     <label htmlFor="name">Nome</label>
