@@ -72,9 +72,9 @@ class Index extends Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-calendar"></span>
+                <span className="icon major style1 fa-check"></span>
                 <h3>Seu filho vai brilhar</h3>
-                <p>Estarei em Curitiba no dia 29/09, com o workshop <b>Seu filho vai brilhar!</b><br />
+                <p>Esse já foi pra conta. Estive em Curitiba no dia 29/09, com o workshop <b>Seu filho vai brilhar!</b><br />
                   Mais informações.</p>
               </li>
               <li>
