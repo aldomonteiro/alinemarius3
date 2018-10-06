@@ -66,6 +66,25 @@ class Index extends Component {
             </div>
           </section>
 
+          {/* Seção ebook */}
+          <section id="s_ebook" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Baixe o meu E-book</h2>
+                </header>
+                <p>Veja as 23 dicas que eu tenho para você melhorar o comportamento dos seus filhos!
+                </p>
+                <ul className="actions">
+                  <li><Link to="/ebook" className="button">Saiba mais</Link></li>
+                </ul>
+              </div>
+              <span className="image"><img src={picEbook} alt="" /></span>
+            </div>
+          </section>
+          {/* Seção ebook */}
+
+          {/* Seção eventos */}
           <section id="s_eventos" className="main special">
             <header className="major">
               <h2>Eventos</h2>
@@ -95,22 +114,7 @@ class Index extends Component {
               </ul>
             </footer>
           </section>
-
-          <section id="s_ebook" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Baixe o meu E-book</h2>
-                </header>
-                <p>Veja as 23 dicas que eu tenho para você melhorar o comportamento dos seus filhos!
-                </p>
-                <ul className="actions">
-                  <li><Link to="/ebook" className="button">Saiba mais</Link></li>
-                </ul>
-              </div>
-              <span className="image"><img src={picEbook} alt="" /></span>
-            </div>
-          </section>
+          {/* Seção eventos */}
 
           <section id="s_social" className="main special">
             <header className="major">
