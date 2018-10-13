@@ -14,6 +14,7 @@ import cover_sobre from '../assets/images/rosto-aline-frente.jpg'
 import depo1 from '../assets/images/depo-fernanda-rosto.png';
 import depo2 from '../assets/images/depo-luciana-rosto.png';
 import picEbook from '../assets/images/ebook.jpg';
+import picAtiv1 from '../assets/images/capa atividades 1.png';
 
 
 class Index extends Component {
@@ -66,6 +67,25 @@ class Index extends Component {
             </div>
           </section>
 
+          {/* Seção atividades */}
+          <section id="s_atividades" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Atividades para você fazer em casa</h2>
+                </header>
+                <p>Veja a minha série de atividades que você pode fazer em casa com as suas crianças!
+                </p>
+                <ul className="actions">
+                  <li><Link to="/atividades" className="button">Saiba mais</Link></li>
+                </ul>
+              </div>
+              <span className="image"><img src={picAtiv1} alt="" /></span>
+            </div>
+          </section>
+          {/* Seção atividades */}
+
+
           {/* Seção ebook */}
           <section id="s_ebook" className="main">
             <div className="spotlight">
@@ -84,38 +104,6 @@ class Index extends Component {
           </section>
           {/* Seção ebook */}
 
-          {/* Seção eventos */}
-          <section id="s_eventos" className="main special">
-            <header className="major">
-              <h2>Eventos</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-check"></span>
-                <h3>Seu filho vai brilhar</h3>
-                <p>Esse já foi pra conta. Estive em Curitiba no dia 29/09, com o workshop <b>Seu filho vai brilhar!</b><br />
-                  Mais informações.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-question"></span>
-                <h3>São Paulo?</h3>
-                <p>Estou planejando um evento presencial em São Paulo, ainda em 2018. Vou levar a experiência
-                  do workshop <b>Seu filho vai brilhar</b> até você, mãe paulistana</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-question"></span>
-                <h3>Quer a Aline na sua cidade?</h3>
-                <p>Clique no botão abaixo para saber de mais detalhes e como posso ir até a sua cidade levar o meu workshop <b>Seu filho vai brilhar.</b></p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/eventos" className="button">Saiba mais</Link></li>
-              </ul>
-            </footer>
-          </section>
-          {/* Seção eventos */}
-
           <section id="s_social" className="main special">
             <header className="major">
               <h2>Nas redes sociais</h2>
@@ -126,19 +114,19 @@ class Index extends Component {
               <li className="style1">
                 <a href="https://www.youtube.com/c/AlineMarius">
                   <span className="icon fa-youtube"></span>
-                  <strong>4882</strong> visualizações
+                  <strong>5475</strong> visualizações
                 </a>
               </li>
               <li className="style2">
                 <a href="https://www.instagram.com/alinemarius01/">
                   <span className="icon fa-instagram"></span>
-                  <strong>692</strong> seguidores
+                  <strong>726</strong> seguidores
                 </a>
               </li>
               <li className="style4">
                 <a href="https://www.facebook.com/alinemarius/">
                   <span className="icon fa-facebook"></span>
-                  <strong>1706</strong> curtidas
+                  <strong>2633</strong> curtidas
                 </a>
               </li>
             </ul>
