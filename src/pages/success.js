@@ -18,7 +18,7 @@ class Depoimentos extends React.Component {
             <h2>Ok! Recebi os seus dados</h2>
             <p>Agora, fique atenta(o) a sua caixa de entrada. Se você não
               receber nada, dá uma olhada na caixa de Spam ou de e-mails indesejados. Você vai receber
-              as instruções para se inscrever na minha lista e fazer o download do E-book, tá bom?
+              as instruções para se inscrever na minha lista e fazer o download do material, tá bom?
             </p>
             <p>
               <Link to="/">Voltar para a página inicial e continuar navegando</Link>
