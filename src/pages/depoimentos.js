@@ -16,7 +16,6 @@ class Depoimentos extends React.Component {
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={cover} alt="" /></span>
             <h2>Assista ao depoimento da Fernanda Bassy</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0d2IydOH4ls?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <h2>Assista ao depoimento da Luciana Machado</h2>
