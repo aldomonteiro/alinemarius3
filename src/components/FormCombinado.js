@@ -1,12 +1,12 @@
 import React from 'react'
 
-const FormAtividades = (props) => (
+const FormCombinado = (props) => (
     <section id="contact">
         <div className="inner">
 
             {/* <form name="contact" action="/success" method="post" netlify-honeypot="bot-field" netlify> */}
-            <form name="formAtividades" method="post" action="/success/" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="formAtividades" />
+            <form name="formCombinado" method="post" action="/success/" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="formCombinado" />
                 <input type="hidden" name="bot-field" />
                 <div className="field half first">
                     <label htmlFor="name">Nome</label>
@@ -25,4 +25,4 @@ const FormAtividades = (props) => (
     </section>
 )
 
-export default FormAtividades
+export default FormCombinado

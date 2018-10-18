@@ -14,6 +14,7 @@ import cover_sobre from '../assets/images/rosto-aline-frente.jpg'
 import depo1 from '../assets/images/depo-fernanda-rosto.png';
 import depo2 from '../assets/images/depo-luciana-rosto.png';
 import picEbook from '../assets/images/ebook.jpg';
+import picCombinado from '../assets/images/combinadoScreenShot.jpg';
 import picAtiv1 from '../assets/images/capa atividades 1.png';
 
 
@@ -66,6 +67,24 @@ class Index extends Component {
               <span className="image"><img src={cover_sobre} alt="" /></span>
             </div>
           </section>
+
+          {/* Seção combinado */}
+          <section id="s_combinado" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Baixe os combinados para manter a rotina</h2>
+                </header>
+                <p>Receba a tabela de combinados que uso em casa para manter a rotina das crianças!
+                </p>
+                <ul className="actions">
+                  <li><Link to="/combinado" className="button">Saiba mais</Link></li>
+                </ul>
+              </div>
+              <span className="image"><img src={picCombinado} alt="" /></span>
+            </div>
+          </section>
+          {/* Seção combinado */}
 
           {/* Seção atividades */}
           <section id="s_atividades" className="main">

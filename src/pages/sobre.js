@@ -40,7 +40,7 @@ class Sobre extends React.Component {
               com todas as adversidades da vida (que não são poucas!).</p>
 
             <h2>Quer conhecer o meu trabalho de perto?</h2>
-            <p>Fique atenta aos meus <Link to="eventos">eventos</Link> e me acompanhe no
+            <p>Me acompanhe no
             &nbsp;<a href="https://www.instagram.com/alinemarius01/">Instagram</a>,
             &nbsp;<a href="https://www.facebook.com/alinemarius/">Facebook</a> e
             &nbsp;<a href="https://www.youtube.com/c/AlineMarius">Youtube</a>.</p>
