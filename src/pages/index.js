@@ -133,19 +133,19 @@ class Index extends Component {
               <li className="style1">
                 <a href="https://www.youtube.com/c/AlineMarius">
                   <span className="icon fa-youtube"></span>
-                  <strong>5475</strong> visualizações
+                  <strong>5565</strong> visualizações
                 </a>
               </li>
               <li className="style2">
                 <a href="https://www.instagram.com/alinemarius01/">
                   <span className="icon fa-instagram"></span>
-                  <strong>726</strong> seguidores
+                  <strong>729</strong> seguidores
                 </a>
               </li>
               <li className="style4">
                 <a href="https://www.facebook.com/alinemarius/">
                   <span className="icon fa-facebook"></span>
-                  <strong>2633</strong> curtidas
+                  <strong>2792</strong> curtidas
                 </a>
               </li>
             </ul>
