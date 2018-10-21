@@ -123,6 +123,7 @@ class Index extends Component {
           </section>
           {/* Seção ebook */}
 
+          {/* Seção nas redes */}
           <section id="s_social" className="main special">
             <header className="major">
               <h2>Nas redes sociais</h2>
@@ -145,7 +146,7 @@ class Index extends Component {
               <li className="style4">
                 <a href="https://www.facebook.com/alinemarius/">
                   <span className="icon fa-facebook"></span>
-                  <strong>2792</strong> curtidas
+                  <strong>3045</strong> curtidas
                 </a>
               </li>
             </ul>
@@ -153,14 +154,10 @@ class Index extends Component {
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/redes-sociais" className="button">Saiba mais</Link></li>
-                {/* <li>
-                  <Ebook>
-                    <Img fluid={this.props.data.imgEbook.childImageSharp.fluid} />
-                  </Ebook>
-                </li> */}
               </ul>
             </footer>
           </section>
+          {/* Seção nas redes */}
 
           <section id="s_depoimentos" className="main special">
             <header className="major">
