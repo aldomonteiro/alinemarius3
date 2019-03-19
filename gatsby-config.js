@@ -1,48 +1,48 @@
 module.exports = {
-  siteMetadata: {
-    title: "Aline Marius - Transformando mães em educadoras",
-    author: "Aline Marius",
-    description: "Espaço para divulgar o trabalho da Aline Marius"
-  },
-  pathPrefix: '/',
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/posts`,
-        name: "posts",
-      },
+    siteMetadata: {
+        title: "Aline Marius - Transformando mães em educadoras",
+        author: "Aline Marius",
+        description: "Espaço para divulgar o trabalho da Aline Marius"
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
+    pathPrefix: '/',
+    plugins: [
+        {
+            resolve: `gatsby-source-filesystem`,
             options: {
-              maxWidth: 630,
+                path: `${__dirname}/src/posts`,
+                name: "posts",
             },
-          },
-          "gatsby-remark-copy-linked-files",
-        ],
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-126449054-1",
-      },
-    },
-  ],
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/assets/images`,
+            },
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 630,
+                        },
+                    },
+                    "gatsby-remark-copy-linked-files",
+                ],
+            },
+        },
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sass`,
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-126449054-1",
+            },
+        },
+    ],
 }
