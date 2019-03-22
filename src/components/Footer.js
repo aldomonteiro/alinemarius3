@@ -19,7 +19,7 @@ const Footer = (props) => (
                 <dt>Whatsapp</dt>
                 <dd>(041) 99641-1476</dd>
                 <dt>Email</dt>
-                <dd><a href="#">aline.marius@gmail.com</a></dd>
+                <dd><a href="#">contato@alinemarius.com.br</a></dd>
             </dl>
             <ul className="icons">
                 <li><a href="https://www.facebook.com/alinemarius/" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
