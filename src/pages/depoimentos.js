@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import HeaderGeneric from '../components/HeaderGeneric'
+import HeaderGeneric from '../components/Layout/HeaderGeneric'
 // import cover from '../assets/images/cover-depo.jpg'
 
 class Depoimentos extends React.Component {
@@ -17,9 +17,9 @@ class Depoimentos extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <h2>Assista ao depoimento da Fernanda Bassy</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0d2IydOH4ls?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe title="Depoimento da Fernanda Bassy" width="560" height="315" src="https://www.youtube.com/embed/0d2IydOH4ls?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <h2>Assista ao depoimento da Luciana Machado</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/N8xHLAUjoFU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe title="Depoimento da Luciana Machado" width="560" height="315" src="https://www.youtube.com/embed/N8xHLAUjoFU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </section>
         </div>
 

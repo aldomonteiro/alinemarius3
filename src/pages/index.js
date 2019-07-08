@@ -9,8 +9,8 @@ import { Waypoint } from 'react-waypoint'
 // import Ebook from '../components/Ebook';
 // import { graphql } from 'gatsby'
 
-import Header from '../components/Header'
-import Layout from '../components/layout'
+import Header from '../components/Layout/Header'
+import Layout from '../components/LayoutAntigo'
 import Nav from '../components/Nav'
 import cover_sobre from '../assets/images/rosto-aline-frente.jpg'
 import depo1 from '../assets/images/depo-fernanda-rosto.png';
@@ -159,13 +159,13 @@ class Index extends Component {
               <li className="style2">
                 <a href="https://www.instagram.com/alinemarius01/">
                   <span className="icon fa-instagram"></span>
-                  <strong>802</strong> seguidores
+                  <strong>1121</strong> seguidores
                 </a>
               </li>
               <li className="style4">
                 <a href="https://www.facebook.com/alinemarius/">
                   <span className="icon fa-facebook"></span>
-                  <strong>5996</strong> curtidas
+                  <strong>17 mil</strong> curtidas
                 </a>
               </li>
             </ul>

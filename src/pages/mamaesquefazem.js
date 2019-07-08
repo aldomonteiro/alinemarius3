@@ -3,8 +3,7 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import HeaderGeneric from '../components/HeaderGeneric'
-import cover from '../assets/images/mamaesquefazem.jpg'
+import HeaderGeneric from '../components/Layout/HeaderGeneric'
 
 class MQF extends React.Component {
   render () {

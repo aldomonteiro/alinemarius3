@@ -1,13 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import HeaderGeneric from '../components/HeaderGeneric'
+import HeaderGeneric from '../components/Layout/HeaderGeneric'
 import cover from '../assets/images/rosto-aline-frente.jpg'
 
 class Sobre extends React.Component {
-  render() {
+  render () {
 
     return (
       <div>

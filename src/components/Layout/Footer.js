@@ -1,9 +1,7 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 
-import logo from '../assets/images/rosto-aline-logo.jpg';
-
-const Footer = (props) => (
+const Footer = () => (
   <footer id="footer">
     <section>
       <h2>Sobre mim</h2>
@@ -19,12 +17,18 @@ const Footer = (props) => (
         <dt>Whatsapp</dt>
         <dd>(041) 99641-1476</dd>
         <dt>Email</dt>
-        <dd><a href="#">contato@alinemarius.com.br</a></dd>
+        <dd><a href="#">aline@alinemarius.com.br</a></dd>
       </dl>
       <ul className="icons">
-        <li><a href="https://www.facebook.com/alinemarius/" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-        <li><a href="https://www.instagram.com/alinemarius01/" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
-        <li><a href="https://www.youtube.com/c/AlineMarius" className="icon fa-youtube alt"><span className="label">Youtube</span></a></li>
+        <li><a href="https://www.facebook.com/alinemarius/" className="icon fa-facebook alt">
+          <span className="label">Facebook</span></a>
+        </li>
+        <li><a href="https://www.instagram.com/alinemarius01/" className="icon fa-instagram alt">
+          <span className="label">Instagram</span></a>
+        </li>
+        <li><a href="https://www.youtube.com/c/AlineMarius" className="icon fa-youtube alt">
+          <span className="label">Youtube</span></a>
+        </li>
       </ul>
     </section>
     {/* <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> */}

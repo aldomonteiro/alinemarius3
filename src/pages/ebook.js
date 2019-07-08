@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby';
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import HeaderGeneric from '../components/HeaderGeneric'
+import HeaderGeneric from '../components/Layout/HeaderGeneric'
 import Contact from '../components/Contact';
 import pic from '../assets/images/ebook.jpg'
 
