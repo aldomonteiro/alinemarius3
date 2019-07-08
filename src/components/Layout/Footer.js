@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Footer = () => (
+export default () => (
   <footer id="footer">
     <section>
       <h2>Sobre mim</h2>
@@ -33,6 +33,4 @@ const Footer = () => (
     </section>
     {/* <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> */}
   </footer>
-)
-
-export default Footer
+);

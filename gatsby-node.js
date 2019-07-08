@@ -7,13 +7,6 @@ const fs = require(`fs-extra`)
 exports.createPages = async ({ graphql, page, actions }) => {
   const { createPage } = actions
 
-  if (page && page.path.match(/^\/restrita/)) {
-    page.matchPath = "/restrita/*"
-
-    // Update the page.
-    createPage(page)
-  }
-
   try {
     const blogPost = path.resolve("./src/templates/blog-post.js")
     const result = await graphql(`
