@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import HeaderGeneric from '../components/Layout/HeaderGeneric'
-import Contact from '../components/Contact';
+import Contact from '../components/FormEbook';
 import pic from '../assets/images/ebook.jpg'
 
 class Ebook extends React.Component {

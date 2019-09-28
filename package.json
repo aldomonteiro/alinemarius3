@@ -25,8 +25,10 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-responsive-modal": "^4.0.1",
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.4.0",
+    "react-toastify": "^5.3.2",
     "react-waypoint": "^9.0.2"
   },
   "devDependencies": {

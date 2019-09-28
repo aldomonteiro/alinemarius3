@@ -14,7 +14,8 @@
 		display: block;
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    color: gray;
 	}
 
 	input[type="text"],
@@ -24,7 +25,7 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		border-radius: _size(border-radius);
-		border: solid 1px;
+		border: solid 1px gray;
 		color: inherit;
 		display: block;
 		outline: 0;

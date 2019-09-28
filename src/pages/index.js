@@ -5,6 +5,10 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
+import Modal from 'react-responsive-modal';
+
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import Img from "gatsby-image";
 // import Ebook from '../components/Ebook';
 // import { graphql } from 'gatsby'
@@ -12,6 +16,7 @@ import { Waypoint } from 'react-waypoint'
 import Header from '../components/Layout/Header'
 import Layout from '../components/LayoutAntigo'
 import Nav from '../components/Nav'
+import TopToast from '../components/TopToast'
 import cover_sobre from '../assets/images/rosto-aline-frente.jpg'
 import depo1 from '../assets/images/depo-fernanda-rosto.png';
 import depo2 from '../assets/images/depo-luciana-rosto.png';
@@ -19,13 +24,15 @@ import picEbook from '../assets/images/ebook.jpg';
 import picCombinado from '../assets/images/combinadoScreenShot.jpg';
 import picAtiv1 from '../assets/images/capa atividades 1.png';
 import picMQF from '../assets/images/mamaesquefazem.jpg';
+import FormNewsletter from '../components/FormNewsletter';
 
 
 class Index extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stickyNav: false
+      stickyNav: false,
+      openModal: false
     }
   }
 
@@ -35,6 +42,27 @@ class Index extends Component {
 
   _handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }));
+    toast.dismiss();
+  }
+
+  handleOpenModal = () => {
+    this.setState({ openModal: true })
+  }
+
+  handleCloseModal = () => {
+    this.setState({ openModal: false })
+  }
+
+  componentDidMount () {
+    toast('Receba minhas atualizações por e-mail!', {
+      onClick: this.handleOpenModal,
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
   }
 
   render () {
@@ -51,7 +79,7 @@ class Index extends Component {
         >
         </Waypoint>
         <Nav sticky={this.state.stickyNav} />
-
+        <TopToast />
         <div id="main">
 
           <section id="s_intro" className="main">
@@ -70,6 +98,20 @@ class Index extends Component {
               <span className="image"><img src={cover_sobre} alt="" /></span>
             </div>
           </section>
+          {/* <section id="s_news" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <p>Tem mais de 100 mamães na minha lista!</p>
+                <p>Cadastre-se aqui para você também receber tudo o que compartilho com elas..
+                </p>
+                <ul className="actions">
+                  <li><input type="text" placeholder="Seu nome" /> </li>
+                  <li><input type="text" placeholder="E-mail" /> </li>
+                  <li><input type="submit" value="Cadastrar" /> </li>
+                </ul>
+              </div>
+            </div>
+          </section> */}
           {/* Seção mamaes que fazem */}
           <section id="s_mamaesquefazem" className="main">
             <div className="spotlight">
@@ -201,7 +243,14 @@ class Index extends Component {
             </footer>
           </section>
         </div>
-
+        <Modal
+          open={this.state.openModal}
+          contentLabel="Receba as minhas atualizações no seu e-mail!"
+          onClose={this.handleCloseModal}
+          center
+        >
+          <FormNewsletter />
+        </Modal>
       </Layout>
     )
   }
