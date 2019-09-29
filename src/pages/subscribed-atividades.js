@@ -8,7 +8,7 @@ export default () =>
       <h2>Você já está inscrito nessa lista e já deve ter recebido esse material!</h2>
       <p>Mas se não recebeu, você pode baixá-lo aqui diretamente:</p>
       <h3>
-        <a href="https://drive.google.com/open?id=1ivakWtjE9KUe_QmolxH-CK6eDpe4Zy4U">
+        <a href="https://drive.google.com/open?id=1wVOcF1lCHNvWBJBS8zrrv-6cvzz3vkbG">
           Link para o download das atividades
         </a>
       </h3>
