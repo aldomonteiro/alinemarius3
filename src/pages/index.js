@@ -22,7 +22,7 @@ import depo1 from '../assets/images/depo-fernanda-rosto.png';
 import depo2 from '../assets/images/depo-luciana-rosto.png';
 import picEbook from '../assets/images/ebook.jpg';
 import picCombinado from '../assets/images/combinadoScreenShot.jpg';
-import picAtiv1 from '../assets/images/capa atividades 1.png';
+import picAtiv1 from '../assets/images/meninas-fazendo-atividades.png';
 import picMQF from '../assets/images/mamaesquefazem.jpg';
 import FormNewsletter from '../components/FormNewsletter';
 
