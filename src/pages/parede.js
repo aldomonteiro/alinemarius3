@@ -1,12 +1,12 @@
 import React from 'react'
-import FormCombinado from '../components/FormCombinado';
-import pic from '../assets/images/combinadoScreenShot.jpg'
+import FormParede from '../components/FormParede';
+import pic from '../assets/images/paredaoLeitura.png'
 import Layout from '../components/Layout';
 
 export default () =>
   <Layout>
     <section id="content" className="main">
-      <h2>Combinado para rotina diária dos seus filhos</h2>
+      <h2>Famílias Silábicas para a sua parede da leitura</h2>
       <div style={{
         display: 'grid',
         /* grid-template-columns: 50% 50%; */
@@ -29,9 +29,9 @@ export default () =>
           borderRadius: '5px',
           padding: '20px'
         }} >
-          <h3>Quer receber os combinados que faço na minha casa para manter a rotina das crianças?</h3>
+          <h3>Para receber o material com as famílias silábicas do paredão da leitura..</h3>
           <p>Preencha o seu nome e e-mail que te enviarei para esse e-mail, ok?</p>
-          <FormCombinado />
+          <FormParede />
         </div>
       </div>
     </section>
