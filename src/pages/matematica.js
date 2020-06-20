@@ -1,5 +1,5 @@
 import React from 'react'
-import FormRelogio from '../components/FormMatematica';
+import FormMatematica from '../components/FormMatematica';
 import pic from '../assets/images/matematica.png'
 import Layout from '../components/Layout';
 
