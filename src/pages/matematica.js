@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 export default () =>
   <Layout>
     <section id="content" className="main">
-      <h2>Material para ensnar as horas!</h2>
+      <h2>Material para ensinar as horas!</h2>
       <div style={{
         display: 'grid',
         /* grid-template-columns: 50% 50%; */
