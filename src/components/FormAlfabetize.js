@@ -13,7 +13,7 @@ const FormAlfabetize = (props) => (
           <input type="email" name="email" id="email" />
           <br />
         </div>
-        <input type="hidden" name="list" value="2JCA35aq763UdZbGAD3gJjTQ" />
+        <input type="hidden" name="list" value="r4oGjqJXXpldj3ejDVL892dw" />
         <input type="hidden" name="subform" value="yes" />
         <ul className="actions">
           <li>
