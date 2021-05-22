@@ -17,7 +17,7 @@ const FormAlfabetize = (props) => (
         <input type="hidden" name="subform" value="yes" />
         <ul className="actions">
           <li>
-            <input type="submit" name="submit" id="submit" value="Quero receber!" className="special" />
+            <input type="submit" name="submit" id="submit" value="Quero participar!" className="special" />
           </li>
         </ul>
       </form>
