@@ -21,7 +21,7 @@ const FormAtividades = (props) => (
         </ul>
       </form> */}
 
-      <form action="http://mailmkt.quickdesign.com.br/subscribe" method="POST" accept-charset="utf-8">
+      <form action="https://mailmkt.quickdesign.com.br/subscribe" method="POST" accept-charset="utf-8">
         <div className="field half first">
           <label htmlFor="name">Nome</label>
           <input type="text" name="name" id="name" placeholder="Informe o seu nome" />
