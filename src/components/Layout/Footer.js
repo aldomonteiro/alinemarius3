@@ -14,8 +14,6 @@ export default () => (
     <section>
       <h2>Fale comigo</h2>
       <dl className="alt">
-        <dt>Whatsapp</dt>
-        <dd>(041) 99641-1476</dd>
         <dt>Email</dt>
         <dd><a href="#">aline@alinemarius.com.br</a></dd>
       </dl>
