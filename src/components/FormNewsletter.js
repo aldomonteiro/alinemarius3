@@ -11,7 +11,7 @@ const FormNewsletter = () => (
 
     <section id="contact">
       <div className="inner">
-        <form action="http://mailmkt.quickdesign.com.br/subscribe" method="POST" acceptCharset="utf-8">
+        <form action="https://mailmkt.quickdesign.com.br/subscribe" method="POST" acceptCharset="utf-8">
           <div>
             <label style={{ color: 'gray' }} htmlFor="name">Nome</label>
             <input style={{ border: '1px solid gray', color: 'gray' }} type="text" name="name" id="name" placeholder="Informe o seu nome" />
