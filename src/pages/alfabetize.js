@@ -1,6 +1,6 @@
 import React from 'react'
 import FormAlfabetize from '../components/FormAlfabetize';
-import pic from '../assets/images/combinadoScreenShot.jpg'
+import pic from '../assets/images/fotoaline.jpeg'
 import Layout from '../components/Layout';
 
 export default () =>
