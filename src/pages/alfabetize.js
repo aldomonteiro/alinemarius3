@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 export default () =>
   <Layout>
     <section id="content" className="main">
-      <h2>Semana Alfabetize em 3 meses</h2>
+      <h1>Maratona Alfabetize em 3 Meses</h1>
       <div style={{
         display: 'grid',
         /* grid-template-columns: 50% 50%; */
@@ -29,7 +29,7 @@ export default () =>
           borderRadius: '5px',
           padding: '20px'
         }} >
-          <h3>Quero participar da Semana Alfabetize em 3 meses!!</h3>
+          <h3>Quero participar da Maratona Alfabetize em 3 meses!!</h3>
           <p>Preencha o seu nome e e-mail para se inscrever, ok?</p>
           <FormAlfabetize />
         </div>
