@@ -21,7 +21,7 @@ export default () => (
         <li><a href="https://www.facebook.com/alinemarius/" className="icon fa-facebook alt">
           <span className="label">Facebook</span></a>
         </li>
-        <li><a href="https://www.instagram.com/alinemarius01/" className="icon fa-instagram alt">
+        <li><a href="https://www.instagram.com/alinemariusoficial/" className="icon fa-instagram alt">
           <span className="label">Instagram</span></a>
         </li>
         <li><a href="https://www.youtube.com/c/AlineMarius" className="icon fa-youtube alt">

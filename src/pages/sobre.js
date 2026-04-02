@@ -30,7 +30,7 @@ export default () =>
 
       <h2>Quer conhecer o meu trabalho de perto?</h2>
       <p>Me acompanhe no
-            &nbsp;<a href="https://www.instagram.com/alinemarius01/">Instagram</a>,
+            &nbsp;<a href="https://www.instagram.com/alinemariusoficial/">Instagram</a>,
             &nbsp;<a href="https://www.facebook.com/alinemarius/">Facebook</a> e
             &nbsp;<a href="https://www.youtube.com/c/AlineMarius">Youtube</a>.</p>
     </section>

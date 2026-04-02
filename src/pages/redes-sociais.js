@@ -22,7 +22,7 @@ class Depoimentos extends React.Component {
             <p>Siga, curta e compartilhe para fazer com que esse trabalho seja mais divulgado e me
               incentive a continuar fazendo isso.</p>
             <ul className="icons">
-              <li><a href="https://www.instagram.com/alinemarius01/" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
+              <li><a href="https://www.instagram.com/alinemariusoficial/" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
               <li><a href="https://www.facebook.com/alinemarius/" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
               <li><a href="https://www.youtube.com/c/AlineMarius" className="icon fa-youtube alt"><span className="label">Youtube</span></a></li>
             </ul>

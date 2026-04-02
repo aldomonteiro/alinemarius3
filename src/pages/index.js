@@ -199,7 +199,7 @@ class Index extends Component {
                 </a>
               </li>
               <li className="style2">
-                <a href="https://www.instagram.com/alinemarius01/">
+                <a href="https://www.instagram.com/alinemariusoficial/">
                   <span className="icon fa-instagram"></span>
                   <strong>1121</strong> seguidores
                 </a>
