@@ -24,7 +24,7 @@ export default () => (
         <li><a href="https://www.instagram.com/alinemariusoficial/" className="icon fa-instagram alt">
           <span className="label">Instagram</span></a>
         </li>
-        <li><a href="https://www.youtube.com/c/AlineMarius" className="icon fa-youtube alt">
+        <li><a href="https://youtube.com/@AlineMarius" className="icon fa-youtube alt">
           <span className="label">Youtube</span></a>
         </li>
       </ul>

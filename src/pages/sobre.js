@@ -9,6 +9,8 @@ export default () =>
       <h2>Quem é Aline?</h2>
       <p>Olá, eu sou a Aline Marius, mãe, professora, pedagoga.</p>
 
+      <p><strong>Pedagoga licenciada em Psicopedagogia e em Matemática. Especialista em Educação Matemática.</strong></p>
+
       <p> Acredito que desenvolver seus filhos em casa é tão importante quanto mandá-los para a escola.</p>
 
       <p>Graças a mais de quinze anos em experiência na educação (trabalhando em escolas
@@ -32,6 +34,6 @@ export default () =>
       <p>Me acompanhe no
             &nbsp;<a href="https://www.instagram.com/alinemariusoficial/">Instagram</a>,
             &nbsp;<a href="https://www.facebook.com/alinemarius/">Facebook</a> e
-            &nbsp;<a href="https://www.youtube.com/c/AlineMarius">Youtube</a>.</p>
+            &nbsp;<a href="https://youtube.com/@AlineMarius">Youtube</a>.</p>
     </section>
   </Layout>

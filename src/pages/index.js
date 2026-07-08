@@ -193,7 +193,7 @@ class Index extends Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <a href="https://www.youtube.com/c/AlineMarius">
+                <a href="https://youtube.com/@AlineMarius">
                   <span className="icon fa-youtube"></span>
                   <strong>6254</strong> visualizações
                 </a>
